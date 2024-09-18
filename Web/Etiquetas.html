@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollo de Aplicacion Web 1</title>
+    <style>
+        body {
+            font-family: Arial;
+        }
+        /* Establece la fuente de todo el cuerpo del documento a Arial*/
+    
+        header, footer {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+        /* Aplica un color de fondo , agrega un relleno y centra el texto 
+        en las etiquetas <header> y <footer> */
+    
+        nav {
+            margin: 20px;
+            background-color: #dddddd;
+            padding: 10px;
+        }
+        /* Aplica un margen , un color de fondo y un relleno 
+       al elemento <nav> */
+    
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #eee;
+        }
+        /* Aplica un margen , un relleno  y un color 
+        de fondo a la etiqueta <section> */
+    
+        aside {
+            background-color: #ddd;
+            padding: 15px;
+            margin: 20px;
+        }
+        /* Aplica un color de fondo , un relleno  y un margen de 
+        al elemento <aside> */
+    
+        article {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+        /* Aplica un margen superior/inferior de 10px, un relleno de 10px y un 
+        color de fondo  a los elementos <article> */
+    
+        footer span {
+            color: #621dbd;
+        }
+        /* Cambia el color del texto dentro de la etiqueta <span> dentro del 
+            <footer> a morado*/
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Bienvenidos al Curso de Desarrollo de Aplicacion Web 1 </h1>
+    
+    <hr>
+    <!--------------------------------------------------------------------------------------------------------->
+    <h2 >Etiquetas de Encabezados o Titulos: </h2>
+    <hr>
+    <ul><li>h1: Encabezado Principal.</li></ul>
+    <ul><li>h2: Segundo nivel de encabezado.</li></ul>
+    <ul><li>h3: Tercer nivel de encabezado.</li></ul>
+    <ul><li>h4: Cuarto nivel de encabezado.</li></ul>
+    <ul><li>h5: Quinto nivel de encabezado.</li></ul>
+    <ul><li>h6: Sexto nivel de encabezado.</li></ul>
+    <hr>
+    <!--------------------------------------------------------------------------------------------------------->
+    <h2>Etiquetas de Texto y Formato</h2>
+    <hr>
+    <ol>
+        <li><!---------------------------------------------------------------------->
+            <h3> Énfasis: </h3>
+        </li>
+        <ul>
+            <li>
+                <b>i:</b> Texto cursiva, se utiliza para denotar texto que tiene 
+                énfasis y es semánticamente importante en el contexto del 
+                contenido. <i>Lunes</i>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <b>em:</b> Texto enfatizado.-  <em>Lunes</em>
+            </li>
+        </ul>
+        
+        <li><!---------------------------------------------------------------------->
+            <h3>Formato en Negritas</h3>
+        </li>
+        <ul>
+            <li> 
+                <b>b:</b> Texto en negrita, ejemplo: <b>Martes</b>
+            </li>
+        </ul>
+        <ul>
+            <li> <b>strong:</b> Texto fuerte, ejemplo: <strong>Martes</strong> 
+            </li>
+        </ul>
+    
+        <li><!---------------------------------------------------------------------->
+            <h3>Subrayado y tachados</h3>
+        </li>
+        <ul>
+            <li><b>u:</b> Texto Subrayado, ejemplo: <u>Miercoles</u></li>
+        </ul>
+        <ul>
+            <li><b>s:</b> Se usa para marcar texto que ya no es 
+                relevante o es incorrecto, sin un contexto 
+                de eliminación o edición, ejemplo:  <s>Texto tachado</s>
+            </li>
+        </ul>
+        <li><!---------------------------------------------------------------------->
+            <h3>Otras Etiquetas</h3>
+        </li>
+        <ul>
+            <li>
+                <b>mark: </b> Texto resaltado, ejemplo: <mark>Texto resaltado</mark>
+                <li>
+                    <b>small: </b> Texto en tamaño pequeño, ejemplo: <small>texto pequeño</small>
+                </li>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <b>sub: </b>Texto en subíndice. ejemplo: 2<sub>10</sub>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <b>sup: </b>Texto en superíndice, ejemplo: 2<sup>10</sup>
+            </li>
+        </ul>
+    </ol>
+    <hr>
+    <!---------------------------------------------------------------------------------------------------------->
+    <h2>Etiquetas de Enlaces</h2>
+    <hr>
+    <ul>
+        <li>
+            <b>a: </b> enlace (hipervínculo), ejemplo: <a href="https://www.youtube.com/c/ProgramaciónATS">Enlace de Prueba</a>
+        </li>
+    </ul>
+    <hr>
+    <!---------------------------------------------------------------------------------------------------------->
+    <h2>Etiquetas de Listas</h2>
+    <hr> 
+    <ol>
+        <li><h3>Listas Ordenadas</h3></li>
+        <ul>
+            <li><!---------------------------------------------------------------------->
+                <b>ol: </b> Lista ordenada (numerada)
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <b>li: </b>Elemnto de lista.
+            </li>
+        </ul>
+
+        <li><h3>Listas Desordenadas</h3></li>
+        <ul>
+            <li><!---------------------------------------------------------------------->
+                <b>ul: </b> Lista desordenada (viñetas)
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <b>li: </b> Elemento de lista.
+            </li>
+        </ul>
+    </ol>
+    <hr>
+    <!---------------------------------------------------------------------------------------------------------->
+    <h2>Etiquetas de Tablas</h2>
+    <hr>
+    <ul>
+        <li>
+            <b>table: </b> Tabla
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <b>tr: </b> Fila de tabla.
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <b>td: </b> celda de tabla.
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <b>th: </b>Encabezado o titulo de celda
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <b>Ejemplo: </b>
+        </li>
+    </ul>
+    <ul>
+        <table border="8">
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Ciudad</th>
+            </tr>
+            <tr>
+                <td>Angel</td>
+                <td>21</td>
+                <td>Puerto Maldonado</td>
+            </tr>
+            <tr>
+                <td>German</td>
+                <td>20</td>
+                <td>Puerto Maldonado</td>
+            </tr>
+            <tr>
+                <td>Jordy</td>
+                <td>25</td>
+                <td>Lima</td>
+            </tr>
+        </table>
+    </ul>
+    <hr>
+    <!---------------------------------------------------------------------------------------------------------->
+    <h2>Etiquetas de Imagen</h2>
+    <hr>
+    <ul>
+        <li>
+            <b>img: </b> Imagen (Self-closing), ejemplo: 
+        </li>
+    </ul>
+    <ul>
+        <img src="../imagenes/html.png" alt="Logo de HTML" width="200">
+    </ul>
+    <hr>
+    <!---------------------------------------------------------------------------------------------------------->
+    <h2>Etiquetas de Formularios</h2>
+    <hr>
+    <ul>
+        <li>
+            <b>form: </b>Formulario
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <b>input: </b>Entrada de datos ( self closing)
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <b>textarea: </b> Área de texto
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <b>button: </b> Bóton
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <b>select: </b> Menú desplegable
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <b>option: </b> Opciones en un menú desplegable
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <b>label: </b>Texto
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <b>Ejemplo: </b>
+        </li>
+    </ul>
+    
+    <ul>
+        <form action="" method="">
+            <!-- Campo de texto -->
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br><br>
+    
+            <!-- Campo de correo electrónico -->
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email"><br><br>
+    
+            <!-- Área de texto -->
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea><br><br>
+    
+            <!-- Menú desplegable -->
+            <label for="region">Región:</label>
+            <select id="region" name="region">
+                <option value="mdd">Madre de Dios</option>
+                <option value="pn">Puno</option>
+                <option value="jlc">Juliaca</option>
+                <option value="aqp">Arequipa</option>
+            </select><br><br>
+    
+            <!-- Botón de envío -->
+            <button>Enviar</button>
+        </form>
+    </ul>
+    <!---------------------------------------------------------------------------------------------------------->
+    <hr>
+    <h2>Etiquetas de Multimedia</h2>
+    <hr>
+    <ul>
+        <li>
+            <b>audio: </b> Reproductor de audio.
+    </ul>
+    <ul>
+        <audio controls>
+            <source src="../Audio/NSYNC - Bye Bye Bye (sub. español  lyrics)  Deadpool 3 Soundtrack.mp3">
+        </audio>
+     </ul>
+    <ul>
+        <li>
+            <b>video: </b> Reproductor de video
+        </li>
+    </ul>
+    <ul>
+        <video width="640" height="360" controls>
+            <source src="../video/videoHTML.mp4" type="video/mp4">
+            <track src="../Subtitulo/[Spanish (auto-generated)] ¿Qué es HTML_ bien explicado [DownSub.com].vtt" kind="subtitles" srclang="es" label="Español">
+        </video>
+    </ul>
+    <ul>
+        <li>
+            <b>source: </b> Fuente de medios (self-closing)
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <b>track: </b> Pista de texto para subtitulos (self-closing)
+        </li>
+    </ul>
+    <!----------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <hr>
+    <h2>Etiquetas de Estructura</h2>
+    <hr>
+    <ul>
+        <li>
+            <b>div: </b>Contenedor genérico.
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <b>span: </b>Contenedor en linea
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <b>header: </b> Cabecera del documento
+        </li>
+    </ul>
+    <ul>
+        <LI>
+            <B>footer: </B>Pie de página del documento.
+        </LI>
+    </ul>
+    <ul>
+        <li>
+            <b>nav: </b> Navegacion.
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <b>article: </b>Articulo independiente.
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <b>section: </b> Seccion del documento.
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <b>aside: </b> Contenido relacionado o auxiliar.
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <b>main: </b> Contenido principal del documento.
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <b>Ejemplo:</b>
+        </li>
+    </ul>
+    <ul>
+        <!-- Cabecera del documento -->
+        <header>
+            <h1>Curso de Desarrollo web 1</h1>
+            <p>Bienvenido a tu curso de Desarrollo web 1</p>
+        </header>
+        <!-- Navegación del sitio -->
+        <nav>
+            <ul>
+                <li><a href="../Cursos/Curso HTML.html">Curso HTML</a></li>
+                <li><a href="../Cursos/Curso CSS.html">Curso CSS</a></li>
+                <li><a href="./Cursos Extras/Curso JS.html">Curso JS</a></li>
+                <li><a href="./Cursos Extras/Curso java.html">Curso Java</a></li>
+            </ul>
+        </nav>
+
+        <!-- Contenedor principal de contenido usando div -->
+         
+        <div>
+            
+            <!-- Contenido principal -->
+            <main >
+                <section>
+                    <h2>Sección Principal</h2>
+                    <article>
+                        <h3>Artículo 1</h3>
+                        <p>Este es un artículo independiente dentro 
+                            de la sección principal. Es un bloque de contenido 
+                            relacionado.</p>
+                    </article>
+                    <article>
+                        <h3>Artículo 2</h3>
+                        <p>Este es otro artículo dentro de la misma sección. 
+                            Los artículos pueden incluir texto, imágenes y otros medios.</p>
+                    </article>
+                </section>
+            </main>
+
+            <!-- Contenido auxiliar usando div -->
+            <aside >
+                <h2>Contenido Relacionado</h2>
+                <p>Esta sección muestra contenido adicional, como enlaces, 
+                    publicidad o información relacionada.</p>
+            </aside>
+
+        </div>
+
+        <!-- Pie de página del documento -->
+        <footer>
+            <p>© Curso de Desarrollo web 1 (2024) - Todos los derechos reservados</p>
+            <span>Última actualización: 06 de septiembre de 2024</span>
+        </footer>
+    </ul>
+    <!----------------------------------------------------------------------------------------------------------------->
+    <hr>
+    <h2>Etiquetas de Semántica</h2>
+    <hr>
+    <ul>
+        <li>
+            <b>section: </b> Sección del documento
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <b>article: </b> Arituclo independiente
+        </li>
+    </ul>
+    <UL>
+        <li>
+            <b>aside: </b> Contenido adicional.
+        </li>
+    </UL>
+    <ul>
+        <li>
+            <b>footer: </b> Pie de pagina.
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <b>header: </b> Cabecera.
+        </li>
+    </ul>
+
+
+    
+</body>
+</html>
